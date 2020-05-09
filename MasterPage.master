@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            position: absolute;
+            top: 29px;
+            left: 361px;
+            z-index: 1;
+            height: 47px;
+            width: 855px;
+        }
+        .auto-style2 {
+            position: absolute;
+            top: 71px;
+            left: 476px;
+            z-index: 1;
+            width: 483px;
+            height: 37px;
+        }
+        .auto-style3 {
+            position: absolute;
+            top: 105px;
+            left: 588px;
+            z-index: 1;
+            width: 216px;
+            height: 28px;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:Panel ID="Panel2" runat="server" Height="286px">
+            <asp:Image ID="Image2" runat="server" ImageUrl="~/IMG4.jpg" Width="284px" />
+            <asp:Label ID="Label1" runat="server" CssClass="auto-style1" Font-Bold="True" Font-Names="TIMES NEW ROMAN" Font-Size="23pt" Text="COIMBATORE INSTITUTE OF TECHNOLOGY"></asp:Label>
+            <asp:Label ID="Label2" runat="server" CssClass="auto-style2" Font-Bold="True" Font-Names="times new roman" Font-Size="15pt" Text="(Government Aided Autonomous Institution)"></asp:Label>
+            <asp:Label ID="Label3" runat="server" CssClass="auto-style3" Font-Bold="True" Font-Names="timesnewroman" Font-Size="15pt" Text="Coimbatore-641014"></asp:Label>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </asp:Panel>
+        <br />
+        <br />
+    </div>
+    </form>
+</body>
+</html>
